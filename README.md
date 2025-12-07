@@ -1,4 +1,4 @@
-# Web Scraping Corpus – books.toscrape.com
+# Web Scraping Corpus 
 
 This repository contains a small text corpus created by scraping the website books.toscrape.com a site designed specifically for web scraping.
 Each row in the corpus corresponds to a single book. The main content is the book description taken from the book’s detail page.
