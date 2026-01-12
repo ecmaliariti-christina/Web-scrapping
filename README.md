@@ -1,32 +1,45 @@
-# Web Scraping Corpus 
+# Web Scraping Corpus - Books to Scrap
+This repository contains a small text corpus created by scraping data from the website Books to Scrape (https://books.toscrape.com/
+), an open-access practice website designed for learning web scraping.
 
-This repository contains a small text corpus created by scraping the website books.toscrape.com a site designed specifically for web scraping.
-Each row in the corpus corresponds to a single book. The main content is the book description taken from the book’s detail page.
+## Description of the Corpus
 
-The corpus is stored in the CSV file.
+The dataset includes 20 books, corresponding to all the books displayed on the first page of the website.
+For each book, the scraper extracts:
 
-## CSV
-The following columns are included in the CSV:
+Title
+Description 
+Category
+Price 
+Availability
+Rating
+URL of the book page
 
-content – Main text for the corpus. This is the book description text. If a description was not available, the book title was used as content.
-title; – Title of the book.
-category – Category/genre of the book, taken from the breadcrumb navigation.
-price – Original price string as shown on the website
-availability – Availability information 
-rating – Star rating of the book 
-url – URL of the book detail page.
+Descriptions were collected directly from the individual book pages. In cases where no description was provided by the website, the value "na" ("not available") was used.
+The resulting data is stored in books_corpus.csv and can be used as a miniature text corpus.
 
-## Format of the files
+## Contribution to research
 
-  - CSV file encoded in UTF-8.
-    - One row per book.  
- 
-  - Jupyter Notebook containing all code used for:
-    - Downloading the HTML pages.
-    - Extracting the book information 
-    - Creating the pandas DataFrame.
-    - Saving the final corpus as a CSV file.
+Although small, this dataset can be used for various introductory research tasks, such as:
 
- ## Terms and conditions 
+Text analysis of book descriptions, identifying themes, computing word frequencies, sentiment analysis, genre or category exploration, basic machine learning exercises, 
+Because the website is structured and consistent, it is ideal for training and educational purposes.
 
-The data in this repository was scraped from http://books.toscrape.com (http://books.toscrape.com/), which is a publicly available demo website explicitly created for practicing web scraping.
+## Terms of Use and Scraping Notes
+
+The website Books to Scrape is explicitly created as a training environment for web scraping therefore a robots.txt file is not provided. No additional scraping restrictions are listed
+The site declares itself as a sandbox for scraping practice, therefore scraping the site is permitted for educational purposes.
+
+## Repository Contents
+
+scrape_books.ipynb – Jupyter Notebook with the scraping code
+books_corpus.csv – Final cleaned dataset
+README.md – Documentation of the project
+
+## Tools Used
+
+Python
+BeautifulSoup
+Requests
+Pandas
+Regex 
