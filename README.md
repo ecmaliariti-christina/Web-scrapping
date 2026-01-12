@@ -38,8 +38,8 @@ README.md – Documentation of the project
 
 ## Tools Used
 
-Python
-BeautifulSoup
-Requests
-Pandas
-Regex 
+Python,
+BeautifulSoup,
+Requests,
+Pandas,
+Regex, 
