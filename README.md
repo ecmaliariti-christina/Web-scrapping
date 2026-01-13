@@ -7,12 +7,12 @@ This repository contains a small text corpus created by scraping data from the w
 The dataset includes 20 books, corresponding to all the books displayed on the first page of the website.
 For each book, the scraper extracts:
 
-Title
-Description 
-Category
-Price 
-Availability
-Rating
+Title,
+Description,
+Category,
+Price, 
+Availability,
+Rating,
 URL of the book page
 
 Descriptions were collected directly from the individual book pages. In cases where no description was provided by the website, the value "na" ("not available") was used.
