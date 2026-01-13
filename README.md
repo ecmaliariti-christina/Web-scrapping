@@ -7,13 +7,7 @@ This repository contains a small text corpus created by scraping data from the w
 The dataset includes 20 books, corresponding to all the books displayed on the first page of the website.
 For each book, the scraper extracts:
 
-Title,
-Description,
-Category,
-Price, 
-Availability,
-Rating,
-URL of the book page
+Title, description, category, price, availability, rating, and URL of the book page.
 
 Descriptions were collected directly from the individual book pages. In cases where no description was provided by the website, the value "na" ("not available") was used.
 The resulting data is stored in books_corpus.csv and can be used as a miniature text corpus.
@@ -22,12 +16,11 @@ The resulting data is stored in books_corpus.csv and can be used as a miniature 
 
 Although small, this dataset can be used for various introductory research tasks, such as:
 
-Text analysis of book descriptions, identifying themes, computing word frequencies, sentiment analysis, genre or category exploration, basic machine learning exercises, 
-Because the website is structured and consistent, it is ideal for training and educational purposes.
+Text analysis of book descriptions, identifying themes, computing word frequencies, sentiment analysis, genre or category exploration and basic machine learning exercises. 
 
 ## Terms of Use and Scraping Notes
 
-The website Books to Scrape is explicitly created as a training environment for web scraping therefore a robots.txt file is not provided. No additional scraping restrictions are listed
+The website Books to Scrape is explicitly created as a training environment for web scraping therefore a robots.txt file is not provided. No additional scraping restrictions are listed.
 The site declares itself as a sandbox for scraping practice, therefore scraping the site is permitted for educational purposes.
 
 ## Repository Contents
@@ -38,8 +31,4 @@ README.md – Documentation of the project
 
 ## Tools Used
 
-Python,
-BeautifulSoup,
-Requests,
-Pandas,
-Regex, 
+Python, BeautifulSoup, Requests, Pandas, Regex
