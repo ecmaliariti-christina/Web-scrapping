@@ -1,4 +1,4 @@
-# Web Scraping Corpus - Books to Scrap
+# Web Scraping Corpus - Books to Scrape
 This repository contains a small text corpus created by scraping data from the website Books to Scrape (https://books.toscrape.com/
 ), an open-access practice website designed for learning web scraping.
 
